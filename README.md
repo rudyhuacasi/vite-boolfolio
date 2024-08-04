@@ -1,5 +1,29 @@
-# Vue 3 + Vite
+## Milestone 3
+- [x] Iniziamo ad occuparci della parte front-office della nostra applicazione: creiamo un nuovo progetto Vue 3 con Vite e installiamo axios.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+- [x] Colleghiamo questo progetto ad una repo separata.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Milestone 4
+- [x]Nel componente principale della nostra Vue App facciamo una chiamata API all’endpoint costruito nel progetto Laravel (milestone 1) e recuperiamo tutti i progetti dal nostro back-end.
+
+- [x] Stampiamo in console i risultati e verifichiamo di ricevere i dati correttamente.
+## Milestone 5
+- [x]Creiamo un nuovo componente ProjectCard, che corrisponde ad una card per visualizzare un progetto. Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite API.
+
+## Bonus:
+
+- []Gestire la paginazione dei risultati
+
+
+backend: laravel-api
+:avviso:  Se non l'avete ancora fatto, aprite le repo oggi stesso.
+Ecco i task da completare:
+aggiungere una pagina di dettaglio di progetto (frontend)
+aggiungere sistema di paginazione (frontend)
+La pagina di dettaglio dovrà avere tutte le informazioni del progetto e le informazioni relazionate.
+Vi lascio inoltre qualche bonus:
+Aggiungere campi e sistema di filtro sul backend (in draft, in evidenza)
+Aggiungere sistema di filtro sul frontend (in evidenza), mostrando i relativi progetti in homepage
+Aggiungere un campo di ricerca per titolo (frontend / backend)
+Creazione di un nuovo progetto da frontend (base)
+Creazione di un nuovo progetto da frontend con caricamento immagine.
