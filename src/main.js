@@ -1,4 +1,7 @@
 import { createApp } from 'vue';
+
+import { router } from './router';
+
 // IMPORT OUR CUSTOM SCSS
 import './scss/style.scss';
 
@@ -22,4 +25,4 @@ library.add(faUserSecret);
 library.add(faFacebook);
 
 
-createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
+createApp(App).use(router).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
