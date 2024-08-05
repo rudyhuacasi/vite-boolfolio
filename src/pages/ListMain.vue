@@ -43,8 +43,7 @@ import ProjectCard from './card/ProjectCard.vue';
                         console.log('Errore durante il recupero dei progetti:');                    
                     }
                 })
-                .catch(error=>console.log(error))
-            ;
+                .catch(error=>console.log(error));
         }
     },
     created (){
@@ -74,13 +73,13 @@ import ProjectCard from './card/ProjectCard.vue';
                     </li>
                     <!-- number -->
                     <li class="page-item" :class="{ active: currentPage === 1 }">
-                        <a class="page-link" href="#" @click.prevent="currentPage = 1; projectCard()">1</a>                    
+                        <a class="page-link" @click.prevent="currentPage = 1; projectCard()">1</a>                    
                     </li>
                     <li class="page-item" :class="{ active: currentPage === 2 }">
-                        <a class="page-link" href="#" @click.prevent="currentPage = 2; projectCard()">2</a>                    
+                        <a class="page-link" @click.prevent="currentPage = 2; projectCard()">2</a>                    
                     </li>
                     <li class="page-item" :class="{ active: currentPage === 3 }">
-                        <a class="page-link" href="#" @click.prevent="currentPage = 3; projectCard()">3</a>                    
+                        <a class="page-link" @click.prevent="currentPage = 3; projectCard()">3</a>                    
                     </li>
 
                     <li class="page-item" @click="nextPage" v-if="response?.results?.next_page_url">
