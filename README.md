@@ -17,8 +17,8 @@
 
 
 ## Ecco i task da completare:
-- [] aggiungere una pagina di dettaglio di progetto (frontend)
-- [] aggiungere sistema di paginazione (frontend)
+- [x] aggiungere una pagina di dettaglio di progetto (frontend)
+- [x] aggiungere sistema di paginazione (frontend)
 - [] La pagina di dettaglio dovrà avere tutte le informazioni del progetto e le informazioni relazionate.
 ## Vi lascio inoltre qualche bonus:
 - [] Aggiungere campi e sistema di filtro sul backend (in draft, in evidenza)
